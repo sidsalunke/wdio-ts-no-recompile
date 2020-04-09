@@ -1,6 +1,7 @@
 //import { Given, When, Then } from 'cucumber';
 import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
+require('../../../include');
 
 defineSupportCode(function({ Given }) {
 
